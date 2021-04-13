@@ -7,7 +7,7 @@
 * **Naam:** Justin de Vink
 * **Klas:** vid-1
 * **Minor:** Visual Interface Design
-* **Favoriete dier:** Trashpanda
+* **Favoriete dier:** Trashpanda 🦝
 * **Startniveau:** Rood?
 
 ## Concept
