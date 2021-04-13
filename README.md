@@ -4,11 +4,11 @@
 # Procesverslag
 
 ## Over
-* **Naam:** `voornaam + achternaam`
-* **Klas:** `vid-1/vid-2`
-* **Minor:** `Visual Interface Design`
-* **Favoriete dier:** `Zeeotters zijn te gek!`
-* **Startniveau:** `blauw/rood/zwart`
+* **Naam:** Justin de Vink
+* **Klas:** vid-1
+* **Minor:** Visual Interface Design
+* **Favoriete dier:** Trashpanda
+* **Startniveau:** Rood?
 
 ## Concept
 
