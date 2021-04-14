@@ -1,6 +1,3 @@
-
-<!-- Vergeet je niet de comments uit te zetten voordat je begint met typen? 💬 -->
-
 # Procesverslag
 
 ## Over
@@ -12,14 +9,32 @@
 
 ## Concept
 
-`Beschrijf in het algemeen je concept van je project.`
+Concept 1: Stofdeeltjes
+
+Stofdeeltjes die in het licht steeds op een andere manier zweven.
+(Een beetje zoals het PS5 opstart menu)
+https://www.youtube.com/watch?v=7TBPrYJDoDE
+
+
+Concept 2: Kleuren cirkels
+
+Het beeldscherm staat helemaal gevuld met cirkels, iedere keer wanneer je de pagina refreshed staan de cirkels op een andere plek.
+De cirkels hebben iedere keer een andere tint van een kleur, maar de kleur veranderd wel per refresh.
+Dus alle cirkels zijn een blauwe tint, daarna bijvoorbeeld groen of rood.
+
+Een klein beetje zoals deze afbeeding:
+https://www.publicdomainpictures.net/nl/view-image.php?image=198862&picture=abstracte-cirkel-achtergrond-3
+
 
 ## Features
 
-`Wat zijn de features in het project dat je gemaakt hebt? Waar kan ik op klikken? Waar zit de interactie?`
+Je kan het kunstwerk veranderen door te klikken (op het canvas of een knop) of de pagina te refreshen.
+
 
 ## Onderzoek & inspiratie
-`Schrijf wat over je onderzoek en je inspiratie voor het project. Hoe kwam je concept tot stand?`
+
+Ik dacht eerst aan cirkels die afstand houden van de positie van je muis, als een soort 1,5 meter afstand gevoel.
+Daarna moest ik denken aan stofdeeltjes in het ligt toen ik het PS5 menu zag, maar uiteindelijk wil ik het liefst een stilstaand beeld maken dat er nooit twee keer hetzelfde uitziet.  
 
 ## Voortang
 
