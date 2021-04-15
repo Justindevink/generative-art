@@ -13,7 +13,7 @@
 
 ~~Stofdeeltjes die in het licht steeds op een andere manier zweven.~~
 ~~(Een beetje zoals het PS5 opstart menu)~~
-~~https://www.youtube.com/watch?v=7TBPrYJDoDE~~~
+~~https://www.youtube.com/watch?v=7TBPrYJDoDE~~
 
 
 Concept 2: Kleuren cirkels
