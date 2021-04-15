@@ -11,7 +11,7 @@
 
 ~~Concept 1: Stofdeeltjes~~
 
-Stofdeeltjes die in het licht steeds op een andere manier zweven.
+~~Stofdeeltjes die in het licht steeds op een andere manier zweven.
 (Een beetje zoals het PS5 opstart menu)
 https://www.youtube.com/watch?v=7TBPrYJDoDE~~
 
@@ -22,8 +22,8 @@ https://www.youtube.com/watch?v=7TBPrYJDoDE~~
 ~~De cirkels hebben iedere keer een andere tint van een kleur, maar de kleur veranderd wel per refresh.~~
 ~~Dus alle cirkels zijn een blauwe tint, daarna bijvoorbeeld groen of rood.~~
 
-~~Een klein beetje zoals deze afbeeding:~~
-~~https://www.publicdomainpictures.net/nl/view-image.php?image=198862&picture=abstracte-cirkel-achtergrond-3~~
+~~Een klein beetje zoals deze afbeeding:
+https://www.publicdomainpictures.net/nl/view-image.php?image=198862&picture=abstracte-cirkel-achtergrond-3~~
 
 Concept 3: Ride the Lightning
 
