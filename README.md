@@ -59,7 +59,13 @@ Helaas werkte de gradient en de lightning functie niet goed samen, dus heb ik de
 https://editor.p5js.org/Justindevink/sketches/c_5cDV2in
 
 ### Week-3
-`Wat heb je gedaan? Wat ging goed? Wat kon beter?`
+In de derde week ben ik verder gegaan met het proberen van het splitsen van de lijn, naar mijn idee ben ik best ver gekomen maar het is me helaas niet gelukt om de lijn daadwerkelijk te splitsen. Het is me wel gelukt om het moment wanneer de lijn hoort te splitsen random te bepalen. Dit moment heb ik aangegeven door de bliksem rood te maken op dat punt.
+
+Ook heb ik de toegevoegd dat de positie van de muis het startpunt van de bliksem is, samen met een de shadow van de lijnen een random blauw tint te geven i.p.v. één kleur. Tot slot heb ik het voor elkaar gekregen de lijn dikker te maken naarmate deze langer wordt. In de eerste instantie wilde ik dat de lijn dik begon en dunner werd, maar dit kreeg ik helaas niet werkend.
+
+https://editor.p5js.org/Justindevink/sketches/idKoFkpuh
+
+## Eindresultaat
 
 
 ## Bronnenlijst
