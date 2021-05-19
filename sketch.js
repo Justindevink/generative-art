@@ -1,91 +1,75 @@
 //https://editor.p5js.org/chjno/sketches/S1wJDPdY-
+//Bliksem lijn
 var x;
 var y;
 
-let c1,c2;
-
 function setup() { 
+  //Canvas grootte is browser grootte
   createCanvas(windowWidth,windowHeight);
   
+  //Beginpunt van bliksem
   x = random(0, windowWidth);
   y = random(0, 50);
-  
-  c1 = color(9, 17, 61);
-  c2 = color(20, 40, 153);
-  
+    
+  //fps
   frameRate(50);
   
-  //Bliksem opsplitsen, werkt niet
-  // lightning = new lightning();
-  
-  // Gradient werkt niet door function lightning
-  // for(let y=0; y<height; y++){
-  //   n = map(y,0,height,0,1);
-  //   let newc = lerpColor(c1,c2,n);
-  //   stroke(newc);
-  //   line(0,y,width, y);
-}
-
-function draw() {
-  if (mouseIsPressed) {
-    lightning() //mss hier iets van + lightning of && lightingTwo ofzo...
-  }
-  
-  if (y > height) {
-    y = 0;
-  }
-  
-  if (x > windowWidth) {
-    x = 0;
-  }
-}
-
-function lightning() {
+  //Bliksem effect
   drawingContext.shadowOffsetX = 0;
   drawingContext.shadowOffsetY = 0;
-  drawingContext.shadowBlur = 30;
+  drawingContext.shadowBlur = 50;
   drawingContext.shadowColor = 'rgba(0, 30, 255, .8)'
-  //Bliksem vervagen, maakt alles heel traag..
-  // filter(BLUR, 2);
-  // drawingContext.opacity = .4;
- 
-  var x2 = x + int(random(-100, 100));
-  var y2 = y + int(random(-20, 200));
 
-  stroke(255);
+  //Bliksem kleur en dikte
+  stroke('rgba(255, 255, 255, .2)');
   strokeWeight(3);
-  fill(255);
-  line(x,y,x2,y2);
-  x = x2;
-  y = y2;
   
-  //bliksem splitsen, werkt niet
-  // if (length > 1) {
-  //   push()
-  //       rotate(PI / 4)
-  //       branch(length * 0.75)
-  //   pop()
-  //   push()
-  //       rotate(-PI / 4)
-  //       branch(length * 0.75)
-  //   pop()
-    
-  // StrokeWeight veranderen, werkt niet
-  // if(strokeWeight => 3){
-  //   strokeWeight = strokeWeight - (int(1));
-  // }
+  //Achtergrondkleur
+  background(0);
+  
+  //Iedere 3s functie fade uitvoeren
+  setInterval(fade, 3000);
 }
 
-//Bliksem opsplitsen, werkt niet
-// function lightningTwo() { 
-//   var x3 = x2 + int(random(-100, 100));
-//   var y3 = y2 + int(random(-20, 200));
+//Wanneer muis is ingedrukt, start bliksem op de positie van de muis
+function draw(startX = mouseX, startY = mouseY) {
+  if (mouseIsPressed) {
+      lightning();
+  }
   
-//   stroke(255);
-//   strokeWeight(3);
-//   fill(255);
-//   line(x2,y2,x3,y3);
-//   x2 = x3;
-//   y2 = y3;
-// }
+  //Wanneer de bliksem verticaal het scherm verlaat, begint deze opnieuw met een random shadowtint en reset de strokeweight en het opsplits moment
+  if (y > height) {
+      drawingContext.shadowColor = 'rgba(' + random(0, 200) + ',' + random(0, 150) + ',' + random(200, 255) + ',.8)'
+    
+    y = startY;
+    x = startX;
+    strokeWeight(3);
+  }
+  
+  //Wanneer de bliksem horizontaal het scherm verlaat, begint deze opnieuw
+  if (x > windowWidth) {
+    x = startX;
+  } 
+}
 
+//De bliksem functie die wordt getriggerd zodra de muis is ingedrukt
+function lightning() {  
+
+  //Bepaald enigzins random de richting van de volgende lijn
+  var x2 = x + random(-100, 100);
+  var y2 = y + random(-20, 200);
+
+  line(x, y, x2, y2);
+  x = x2;
+  y = y2;
+
+  //Veranderd de dikte van de bliksem
+  if (y >= 100) {
+    strokeWeight(1 + y / 100);
+  }
+}
+
+//Iedere keer .1 opacity toevoegen
+function fade() {
+  stroke('rgba(255, 255, 255,' + int(.1) + ')')
+} 
