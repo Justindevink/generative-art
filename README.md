@@ -65,8 +65,11 @@ Ook heb ik de toegevoegd dat de positie van de muis het startpunt van de bliksem
 
 https://editor.p5js.org/Justindevink/sketches/idKoFkpuh
 
-## Eindresultaat
+Vertellen over opacity toegevoegd met setinverval, en verwijderen van gradient en opsplitsen en donder cirkels
+
 https://editor.p5js.org/Justindevink/sketches/fvKzK9o0u
+
+## Eindresultaat
 
 https://justindevink.github.io/generative-art/
 
@@ -77,6 +80,7 @@ https://editor.p5js.org/Justindevink/sketches/scMVd1qPk
 
 ## Bronnenlijst
 
-* `Link naar bron 1`
-* `Link naar bron 2`
-* `Link naar bron 3`
+* Random lijnen - https://editor.p5js.org/chjno/sketches/S1wJDPdY-
+* Lijn opacity - https://editor.p5js.org/kjhollen/sketches/r1MSxWcyf
+* Gradient - https://editor.p5js.org/Jaemi13/sketches/gAS-FB5Sx
+* Lijn opsplitsen - https://betterprogramming.pub/learning-p5-js-by-making-fractals-cbdcac5c651e
