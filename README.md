@@ -61,11 +61,11 @@ https://editor.p5js.org/Justindevink/sketches/c_5cDV2in
 ### Week-3
 In de derde week ben ik verder gegaan met het proberen van het splitsen van de lijn, naar mijn idee ben ik best ver gekomen maar het is me helaas niet gelukt om de lijn daadwerkelijk te splitsen. Het is me wel gelukt om het moment wanneer de lijn hoort te splitsen random te bepalen. Dit moment heb ik aangegeven door de bliksem rood te maken op dat punt.
 
-Ook heb ik de toegevoegd dat de positie van de muis het startpunt van de bliksem is, samen met een de shadow van de lijnen een random blauw tint te geven i.p.v. één kleur. Tot slot heb ik het voor elkaar gekregen de lijn dikker te maken naarmate deze langer wordt. In de eerste instantie wilde ik dat de lijn dik begon en dunner werd, maar dit kreeg ik helaas niet werkend.
+Ook heb ik de toegevoegd dat de positie van de muis het startpunt van de bliksem is, samen met de shadow van de lijnen een random blauw tint te geven i.p.v. één kleur. Tot slot heb ik het voor elkaar gekregen de lijn dikker te maken naarmate deze langer wordt. In de eerste instantie wilde ik dat de lijn dik begon en dunner werd, maar dit kreeg ik helaas niet werkend.
 
 https://editor.p5js.org/Justindevink/sketches/idKoFkpuh
 
-Vertellen over opacity toegevoegd met setinverval, en verwijderen van gradient en opsplitsen en donder cirkels
+In de laatste versie heb ik met setInterval iedere 1,5s een functie kunnen activeren die de opacity van de bliksem met .1 verhoogd. Hierdoor begint de bliksem erg licht en wordt deze steeds voller. Tot slot heb de gradient en de random cirkels uit de laatste versie gehaald omdat ik deze niet werkend kreeg met de huidige code.
 
 https://editor.p5js.org/Justindevink/sketches/fvKzK9o0u
 
@@ -73,7 +73,7 @@ https://editor.p5js.org/Justindevink/sketches/fvKzK9o0u
 
 https://justindevink.github.io/generative-art/
 
-Bonus - Zwarte bliksem (edgy!)
+Bonus - Zwarte bliksem (Ook mooi!)
 
 https://editor.p5js.org/Justindevink/sketches/scMVd1qPk
 
