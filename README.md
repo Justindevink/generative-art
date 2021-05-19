@@ -27,24 +27,29 @@ https://www.publicdomainpictures.net/nl/view-image.php?image=198862&picture=abst
 
 Concept 3: Ride the Lightning
 
+Eén van mijn favoriete albums is Ride the Lightning van Metallica, voor al de artwork van dit album vind ik ook erg mooi. Ik heb daarom niet één maar twee(!) shirts van dit album. Ik wil daarom proberen de bliksemschichten na te maken in P5.js en deze zoals echte bliksem een onvoorspelbaar patroon te geven.
 https://www.bol.com/nl/p/ride-the-lightning/1000004000000463/
+
 
 ## Features
 
-Je kan het kunstwerk veranderen door te klikken (op het canvas of een knop) of de pagina te refreshen.
+Je kunt bliksem op het scherm tevoorschijn laten komen door je muisknop ingedrukt te houden, ook kan je de het startpunt van de bliksem bepalen met de positie van je muis.
 
 
 ## Onderzoek & inspiratie
 
-Ik dacht eerst aan cirkels die afstand houden van de positie van je muis, als een soort 1,5 meter afstand gevoel.
-Daarna moest ik denken aan stofdeeltjes in het ligt toen ik het PS5 menu zag, maar uiteindelijk wil ik het liefst een stilstaand beeld maken dat er nooit twee keer hetzelfde uitziet.  
+Ik ben gaan kijken hoe het patroon van bliksem er ongeveer uitziet en wat nou dat lichtgevende effect geeft dat bliksem heeft.
 
 ## Voortang
 
-`Schrijf hier een klein logboekje met je voortgang per week.`
-
 ### Week-1
-`Wat heb je gedaan? Wat ging goed? Wat kon beter?`
+Ik ben op de reference pagina gaan kijken hoe het tekenen van lijnen werkt. Daarna ben ik met Line een statische lijn gaan tekenen die hetzelfde patroon heeft als een bliksemschicht. Nadat dit was gelukt, ben ik gaan zoeken hoe ik de startpositie en eindpositie van een lijn random kon maken. Dit was het resultaat dat ik toen had bereikt:
+
+https://editor.p5js.org/Justindevink/sketches/_LxNg2PQC
+
+Tot slot kreeg ik het idee om het effect van bliksem van ver weg toe te voegen door cirkels met een lage opacity en een blur random op het scherm te laten verschijnen. Het was me gelukt om een gradient als achtergrond te maken en cirkels eenmalig op een random positie te laten verschijnen, samen met een random blauw tint. Dit was het resultaat:
+
+https://editor.p5js.org/Justindevink/sketches/oQPCD28oB
 
 ### Week-2
 `Wat heb je gedaan? Wat ging goed? Wat kon beter?`
