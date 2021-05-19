@@ -67,9 +67,11 @@ https://editor.p5js.org/Justindevink/sketches/idKoFkpuh
 
 ## Eindresultaat
 https://editor.p5js.org/Justindevink/sketches/fvKzK9o0u
+
 https://justindevink.github.io/generative-art/
 
-Bonus - Zwarte bliksem (ook mooi)
+Bonus - Zwarte bliksem (edgy!)
+
 https://editor.p5js.org/Justindevink/sketches/scMVd1qPk
 
 
