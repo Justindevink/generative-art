@@ -43,16 +43,20 @@ Ik ben gaan kijken hoe het patroon van bliksem er ongeveer uitziet en wat nou da
 ## Voortang
 
 ### Week-1
-Ik ben op de reference pagina gaan kijken hoe het tekenen van lijnen werkt. Daarna ben ik met Line een statische lijn gaan tekenen die hetzelfde patroon heeft als een bliksemschicht. Nadat dit was gelukt, ben ik gaan zoeken hoe ik de startpositie en eindpositie van een lijn random kon maken. Dit was het resultaat dat ik toen had bereikt:
+Ik ben op de reference pagina gaan kijken hoe het tekenen van lijnen werkt. Daarna ben ik met Line een statische lijn gaan tekenen die hetzelfde patroon heeft als een bliksemschicht. Nadat dit was gelukt, ben ik gaan zoeken hoe ik de startpositie en eindpositie van een lijn random kon maken.
 
 https://editor.p5js.org/Justindevink/sketches/_LxNg2PQC
 
-Tot slot kreeg ik het idee om het effect van bliksem van ver weg toe te voegen door cirkels met een lage opacity en een blur random op het scherm te laten verschijnen. Het was me gelukt om een gradient als achtergrond te maken en cirkels eenmalig op een random positie te laten verschijnen, samen met een random blauw tint. Dit was het resultaat:
+Tot slot kreeg ik het idee om het effect van bliksem van ver weg toe te voegen door cirkels met een lage opacity en een blur random op het scherm te laten verschijnen. Het was me gelukt om een gradient als achtergrond te maken en cirkels eenmalig op een random positie te laten verschijnen, samen met een random blauw tint.
 
 https://editor.p5js.org/Justindevink/sketches/oQPCD28oB
 
 ### Week-2
-`Wat heb je gedaan? Wat ging goed? Wat kon beter?`
+In de tweede week ben ik gaan kijken hoe ik het einde de random lijn kon laten opvolgen met een nieuwe lijn die een andere richting op gaat. Nadat dit was gelukt kwam ik erachter dat de gekreukelde lijn nu oneindig doorging onder het canvas, waardoor je maar één bliksem per refresh kon tekenen. Dit heb ik kunnen oplossen (met hulp) door de startpositie van de lijn te resetten zodra de lijn langer is dan het canvas. Ook heb ik het lichtgevende effect van bliksem kunnen namaken door een shadow toe te voegen aan de lijnen met een blauwe tint.
+
+Helaas werkte de gradient en de lightning functie niet goed samen, dus heb ik de gradient voor nu uitgezet. Tot slot ben ik gaan proberen de lijn op te splitsen in meerdere lijnen.
+
+https://editor.p5js.org/Justindevink/sketches/c_5cDV2in
 
 ### Week-3
 `Wat heb je gedaan? Wat ging goed? Wat kon beter?`
