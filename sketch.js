@@ -3,6 +3,8 @@
 var x;
 var y;
 
+var opacity = 0;
+
 function setup() { 
   //Canvas grootte is browser grootte
   createCanvas(windowWidth,windowHeight);
@@ -20,15 +22,15 @@ function setup() {
   drawingContext.shadowBlur = 50;
   drawingContext.shadowColor = 'rgba(0, 30, 255, .8)'
 
-  //Bliksem kleur en dikte
-  stroke('rgba(255, 255, 255, .2)');
+  // Bliksem kleur en dikte
+  stroke('rgba(255, 255, 255, .1)');
   strokeWeight(3);
   
   //Achtergrondkleur
-  background(0);
+  background(10, 4, 60);
   
   //Iedere 3s functie fade uitvoeren
-  setInterval(fade, 3000);
+  setInterval(fade, 1500);
 }
 
 //Wanneer muis is ingedrukt, start bliksem op de positie van de muis
@@ -69,7 +71,9 @@ function lightning() {
   }
 }
 
+//https://editor.p5js.org/kjhollen/sketches/r1MSxWcyf
 //Iedere keer .1 opacity toevoegen
 function fade() {
-  stroke('rgba(255, 255, 255,' + int(.1) + ')')
+  opacity += .1;
+  stroke('rgba(255, 255, 255,' + opacity + ')')
 } 
